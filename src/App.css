@@ -914,6 +914,13 @@
             margin: 0;
         }
 
+        .footer {
+            --nav-item-font-weight: normal;
+            --nav-item-font-size: var(--font-size-small);
+            padding: 4rem 6rem;
+        }
+    
+
         [class^=".footer-col-"] {
             margin: 0 0 3rem 0;
         }

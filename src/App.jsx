@@ -394,19 +394,19 @@ function App() {
                         <div className="footer-col-1-2">
                             <ul className="social nav">
                                 <li className="social-item nav-item">
-                                    <SocialIcon url="https://twitter.com/dan__kesh77" target="_blank" rel='noopener noreferrer' style={{width:"40px", height: "40px"}}/>
+                                    <SocialIcon url="https://twitter.com/dan__kesh77" target="_blank" rel='noopener noreferrer' style={{width:"35px", height: "35px"}}/>
                                 </li>
 
                                 <li className="social-item nav-item">
-                                    <SocialIcon url="https://instagram.com/dan__kesh77" target="_blank" rel='noopener noreferrer' style={{width:"40px", height: "40px"}} />              
+                                    <SocialIcon url="https://instagram.com/dan__kesh77" target="_blank" rel='noopener noreferrer' style={{width:"35px", height: "35px"}} />              
                                 </li>
 
                                 <li className="social-item nav-item">                                
-                                    <SocialIcon url="https://www.facebook.com/daniel.achilihu.9" target="_blank" rel='noopener noreferrer' style={{width:"40px", height: "40px"}}/>
+                                    <SocialIcon url="https://www.facebook.com/daniel.achilihu.9" target="_blank" rel='noopener noreferrer' style={{width:"35px", height: "35px"}}/>
                                 </li>
 
                                 <li className="social-item nav-item">                                   
-                                    <SocialIcon url="https://api.whatsapp.com/send?phone=+2349071953161& text=Thank%20you%20for%20contacting%20Ugo Brown Hair Accessories" target="_blank" rel='noopener noreferrer' style={{width:"40px", height: "40px"}}/>    
+                                    <SocialIcon url="https://api.whatsapp.com/send?phone=+2349071953161& text=Thank%20you%20for%20contacting%20Ugo Brown Hair Accessories" target="_blank" rel='noopener noreferrer' style={{width:"35px", height: "35px"}}/>    
                                 </li>
                             </ul>
                         </div>
