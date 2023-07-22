@@ -1,4 +1,3 @@
-
 /* SUMMARY
 1. GLOBAL
 2. LAYOUT
@@ -528,7 +527,7 @@
         --button-color: var(--color-white);
         --text-color: var(--color-white);
         --section-title-color: var(--color-white);
-        background-image: url(images/homepage.png);
+        background-image: url(../images/homepage.png);
         background-position: 50% 0rem ;
         background-repeat: no-repeat;
         background-size: 150rem auto;

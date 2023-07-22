@@ -1,5 +1,15 @@
 import './App.css'
 import { SocialIcon } from 'react-social-icons';
+import logo from '../images/logo.png'
+import about2 from '../images/about2.png'
+import about3 from '../images/about3.png'
+import about4 from '../images/about4.png'
+import edge from '../images/edge.jpg'
+import gel from '../images/gel.jpg'
+import nails from '../images/nails.jpeg'
+import weavon from '../images/weavon.jpg'
+import relaxers from '../images/relaxers.jpg'
+import attachment from '../images/attachment.jpg'
 
 function App() {
 
@@ -17,7 +27,7 @@ function App() {
 
                         <div className="header-logo">  
                             <ol href="#">
-                                <img src="images/logo.png" alt="Ugo Brown logo" width="160" height="40"/>
+                                <img src={logo} alt="Ugo Brown logo" width="160" height="40"/>
                             </ol>
                         </div>
 
@@ -87,11 +97,11 @@ function App() {
                                 <div className="about-img">
                                     <img
                                     sizes="(max-width: 1505px) 40vw, 638px"
-                                    srcSet="
-                                    images/about_tcwytk_c_scale,w_310.png 310w,
-                                    images/about_tcwytk_c_scale,w_493.png 493w,
-                                    images/about_tcwytk_c_scale,w_638.png 638w"
-                                    src="images/about_tcwytk_c_scale,w_638.png"
+                                    srcSet=
+                                        {about2}
+                                        {...about3}
+                                        {...about4}
+                                    src= {about4}
                                     alt="Ugochi Faith Emeka"/>
                                 </div>
                                 
@@ -210,7 +220,7 @@ function App() {
                                     <article className="card-products">
                                         <div className="card-outer">
                                             <div className="card-image">
-                                                <img src="images/attachment.jpg" alt="Hair Attachments"/>
+                                                <img src={attachment} alt="Hair Attachments"/>
                                             </div>
 
                                             <div className="card-inner">
@@ -224,7 +234,7 @@ function App() {
                                     <article className="card-products">
                                         <div className="card-outer">
                                             <div className="card-image">
-                                                <img src="images/relaxers.jpg" alt="Hair Relaxers"/>
+                                                <img src={relaxers} alt="Hair Relaxers"/>
                                             </div>
                                             <div className="card-inner">
                                                 <h3 className="card-title"><a href="#">Price: #500</a></h3>
@@ -237,21 +247,7 @@ function App() {
                                     <article className="card-products">
                                         <div className="card-outer">
                                             <div className="card-image">
-                                                <img src="images/weavon.jpg" alt="Hair weavons"/>
-                                            </div>
-                                            <div className="card-inner">
-                                                <h3 className="card-title"><a href="#">Price: #500</a></h3>
-                                            </div>
-                                        </div>
-                                    </article>
-                                </li>
-                    
-
-                                <li className="col-1-3">
-                                    <article className="card-products">
-                                        <div className="card-outer">
-                                            <div className="card-image">
-                                                <img src="images/nails.jpeg" alt="Finger and Toe Nails"/>
+                                                <img src={weavon} alt="Hair weavons"/>
                                             </div>
                                             <div className="card-inner">
                                                 <h3 className="card-title"><a href="#">Price: #500</a></h3>
@@ -265,7 +261,7 @@ function App() {
                                     <article className="card-products">
                                         <div className="card-outer">
                                             <div className="card-image">
-                                                <img src="images/gel.jpg" alt="Hair Gel"/>
+                                                <img src={nails} alt="Finger and Toe Nails"/>
                                             </div>
                                             <div className="card-inner">
                                                 <h3 className="card-title"><a href="#">Price: #500</a></h3>
@@ -279,7 +275,21 @@ function App() {
                                     <article className="card-products">
                                         <div className="card-outer">
                                             <div className="card-image">
-                                                <img src="images/edge.jpg" alt="Edge control"/>
+                                                <img src={gel} alt="Hair Gel"/>
+                                            </div>
+                                            <div className="card-inner">
+                                                <h3 className="card-title"><a href="#">Price: #500</a></h3>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </li>
+                    
+
+                                <li className="col-1-3">
+                                    <article className="card-products">
+                                        <div className="card-outer">
+                                            <div className="card-image">
+                                                <img src= {edge} alt="Edge control"/>
                                             </div>
                                             <div className="card-inner">
                                                 <h3 className="card-title"><a href="#">Price: #500</a></h3>
@@ -383,7 +393,7 @@ function App() {
 
                         <div className="footer-col-1-2">
                             <div className="header-logo" >
-                            <img src="images/logo.png" alt="Ugo-brown logo" width="160" height="40"/>
+                            <img src={logo} alt="Ugo-brown logo" width="160" height="40"/>
                             <address className="footer-address">
                                 Abia State<br/>
                                 Nigeria.<br/>
