@@ -16,9 +16,9 @@ function App() {
                     <div className="header-container">
 
                         <div className="header-logo">  
-                            <a href="#">
+                            <ol href="#">
                                 <img src="images/logo.png" alt="Ugo Brown logo" width="160" height="40"/>
-                            </a>
+                            </ol>
                         </div>
 
                         <input className="menu-btn" id="menu-btn" type="checkbox"/>                  
@@ -32,13 +32,13 @@ function App() {
                                     <a href="#" className="nav-link">Home</a>
                                 </li>
                                 <li className="nav-item">
+                                    <a href="#about" className="nav-link">About </a>
+                                </li>
+                                <li className="nav-item">
                                     <a href="#services" className="nav-link">Services</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a href="#works" className="nav-link">Products</a>
-                                </li>
-                                <li className="nav-item">
-                                    <a href="#about" className="nav-link">About</a>
+                                    <a href="#products" className="nav-link">Products</a>
                                 </li>
                                 <li className="nav-item">
                                     <a href="#testimonials" className="nav-link">Testimonials</a>
@@ -97,10 +97,10 @@ function App() {
                                 
                                 <div className="about-col-1-2">
                                     <h3>Who are we</h3>
-                                    <p>Ugo Brown Hair Accessories is a company based in Nigeria. It was established by Miss Ugochi Faith Emeka in 2022. Our goal and objective is to provide authentic hair accessories for the beautification of our clients at an affordable price.</p>
+                                    <p> <b>Ugo Brown Hair Accessories</b>  is a company based in Nigeria. It was established by Miss Ugochi Faith Emeka in 2022. Our goal and objective is to provide authentic hair accessories for the beautification of our clients at an affordable price.</p>
 
                                     <h3>How we work</h3>
-                                    <p>We deal in the sales of various hair accessories such as relaxers, attachment, Gel, finger and toe nails, weavons, etc at pocket friendly prices across the globe. We also do home delivery where possible</p>
+                                    <p>We deal in the sales of various hair accessories such as relaxers, attachments, hair gels, finger and toe nails, weavons, etc at pocket friendly prices across the globe. We also do home delivery where possible</p>
 
                                     <h3>Our social media platform</h3>
                                     
@@ -122,7 +122,7 @@ function App() {
                 
                                         <div className="about-social-links1">
                                             <h5>Whatsapp:</h5>
-                                            <SocialIcon url="https://api.whatsapp.com/send?phone=+2349037231624& text=Thank%20you%20for%20contacting%20Ugo Brown Hair Accessories" target="_blank" rel='noopener noreferrer' style={{width:"30px", height: "20px"}}/>                                  
+                                            <SocialIcon url="https://api.whatsapp.com/send?phone=+2349071953161& text=Thank%20you%20for%20contacting%20Ugo Brown Hair Accessories" target="_blank" rel='noopener noreferrer' style={{width:"30px", height: "20px"}}/>                                  
                                         </div>
                                         
                                     </div>
@@ -138,10 +138,65 @@ function App() {
                 </section>
 
 
+                {/* <!-- Services section --> */}
+
+                <section id="services" className="section section-services">
+                    <div className="container">
+                        <header className="section-header">
+                            <h2 className="section-title">Services</h2>
+                            <p className="section-tagline">We deal in the following sales:</p>
+                        </header>
+
+                        <div className="section-body">
+                            <ul className="row">
+                                <li className="col-1-3">
+                                    <div className="card-services">
+                                        <h3 className="card-title"><a href="https://api.whatsapp.com/send?phone=+2349071953161& text=Thank%20you%20for%20contacting%20Ugo Brown Hair Accessories">Hair Attachments</a></h3>
+                                    </div>
+                                </li>
+
+                                <li className="col-1-3">
+                                    <div className="card-services">
+                                        <h3 className="card-title"><a href="https://api.whatsapp.com/send?phone=+2349071953161& text=Thank%20you%20for%20contacting%20Ugo Brown Hair Accessories">Hair Relaxers</a></h3>
+                                    </div>
+                                </li>
+
+                                <li className="col-1-3">
+                                    <div className="card-services">
+                                        <h3 className="card-title"><a href="https://api.whatsapp.com/send?phone=+2349071953161& text=Thank%20you%20for%20contacting%20Ugo Brown Hair Accessories">Hair weavons</a></h3>
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <ul className="row">
+                                <li className="col-1-3">
+                                    <div className="card-services">
+                                        <h3 className="card-title"><a href="https://api.whatsapp.com/send?phone=+2349071953161& text=Thank%20you%20for%20contacting%20Ugo Brown Hair Accessories">Hair Gel</a></h3>
+                                    </div>
+                                </li>
+
+                                <li className="col-1-3">
+                                    <div className="card-services">
+                                        <h3 className="card-title"><a href="https://api.whatsapp.com/send?phone=+2349071953161& text=Thank%20you%20for%20contacting%20Ugo Brown Hair Accessories">Edge Control</a></h3>
+                                    </div>
+                                </li>
+
+                                <li className="col-1-3">
+                                    <div className="card-services">
+                                        <h3 className="card-title"><a href="https://api.whatsapp.com/send?phone=+2349071953161& text=Thank%20you%20for%20contacting%20Ugo Brown Hair Accessories">Finger and Toe Nails</a></h3>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </section>
+
 
                 {/* <!-- Products section --> */}
 
-                <section id="wproducts" className="section section-wproducts" data-section-theme="dark">
+                <section id="products" className="section section-wproducts" data-section-theme="dark">
                     <div className="container">
 
                         <header className="section-header">
@@ -240,61 +295,6 @@ function App() {
                 </section>
 
 
-                {/* <!-- Services section --> */}
-
-                <section id="services" className="section section-services">
-                    <div className="container">
-                        <header className="section-header">
-                            <h2 className="section-title">Services</h2>
-                            <p className="section-tagline">We deal in the following sales:</p>
-                        </header>
-
-                        <div className="section-body">
-                            <ul className="row">
-                                <li className="col-1-3">
-                                    <div className="card-services">
-                                        <h3 className="card-title"><a href="#">Hair Attachments</a></h3>
-                                    </div>
-                                </li>
-
-                                <li className="col-1-3">
-                                    <div className="card-services">
-                                        <h3 className="card-title"><a href="#">Hair Relaxers</a></h3>
-                                    </div>
-                                </li>
-
-                                <li className="col-1-3">
-                                    <div className="card-services">
-                                        <h3 className="card-title"><a href="#">Hair weavons</a></h3>
-                                    </div>
-                                </li>
-                            </ul>
-
-                            <ul className="row">
-                                <li className="col-1-3">
-                                    <div className="card-services">
-                                        <h3 className="card-title"><a href="#">Hair Gel</a></h3>
-                                    </div>
-                                </li>
-
-                                <li className="col-1-3">
-                                    <div className="card-services">
-                                        <h3 className="card-title"><a href="#">Edge Control</a></h3>
-                                    </div>
-                                </li>
-
-                                <li className="col-1-3">
-                                    <div className="card-services">
-                                        <h3 className="card-title"><a href="#">Finger and Toe Nails</a></h3>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-
-                    </div>
-
-                </section>
-
 
 
                 {/* <!-- Testimonials section --> */}
@@ -361,7 +361,7 @@ function App() {
                         </div>
                         
                         <div className="section-footer">
-                            <a href="https://api.whatsapp.com/send?phone=+2349037231624& text=Thank%20you%20for%20contacting%20Ugo Brown Hair Accessories" target="_blank" rel='noopener noreferrer' className="button">Get in touch</a>
+                            <a href="https://api.whatsapp.com/send?phone=+2349071953161& text=Thank%20you%20for%20contacting%20Ugo Brown Hair Accessories" target="_blank" rel='noopener noreferrer' className="button">Get in touch</a>
                         </div>
                     </div>
                 </section>
@@ -406,7 +406,7 @@ function App() {
                                 </li>
 
                                 <li className="social-item nav-item">                                   
-                                    <SocialIcon url="https://api.whatsapp.com/send?phone=+2349037231624& text=Thank%20you%20for%20contacting%20Ugo Brown Hair Accessories" target="_blank" rel='noopener noreferrer' style={{width:"40px", height: "40px"}}/>    
+                                    <SocialIcon url="https://api.whatsapp.com/send?phone=+2349071953161& text=Thank%20you%20for%20contacting%20Ugo Brown Hair Accessories" target="_blank" rel='noopener noreferrer' style={{width:"40px", height: "40px"}}/>    
                                 </li>
                             </ul>
                         </div>

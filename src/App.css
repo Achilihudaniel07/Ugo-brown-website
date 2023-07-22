@@ -285,8 +285,7 @@
 
     .header-logo img{
         width: 130px;
-        height: 13vh;
-        cursor: none;
+        height: 14vh;
     }
 
     .header .menu-icon{
@@ -544,8 +543,8 @@
     }
 
     .section-hero .section-body {
-        padding: 20rem 4rem;
-        margin-top: 50px;
+        padding: 10rem 4rem;
+        margin-top: 45px;
     }
 
     .section-hero .section-category {
@@ -580,7 +579,7 @@
         }
 
         .section-hero .section-body {
-            padding: 2rem;
+            padding: 10rem 0rem;
         }
     }
 
@@ -613,21 +612,25 @@
     }
    
 
- /* ########################################################################################################################################## */ 
+    /* ########################################################################################################################################## */ 
 
     /* ABOUT US */
 
     .about-row{
         display: flex;
         gap: 2rem;
+        align-items: center;
     }
 
     .about-img {
-        width: 50%;
+        max-width: 450px;
+        width: 45%;
     }
 
     .about-col-1-2 {
-        width: 50%;
+        width: 55%;
+        margin-top: -3rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
     .section-about-us [class*='about-col-'] {
@@ -637,22 +640,85 @@
      h5{
         margin: 0;
      } 
+
+    .about-social-links{
+        display: flex;
+        gap: 3rem;
+    }
+
     .about-social-links1{
         display: flex;
         align-items: center;
         margin: 0;
-        padding:1.2rem 0;
-        font-size: 1.7rem;
+        padding:1rem 0;
+        font-size: 1.5rem;
+    }
+
+    @media screen and (max-width: 1124px) {
+        .about-row{
+            display: block;
+        }
+
+        .about-img {
+            width: 80%;
+        }
+    
+        .about-col-1-2 {
+            width: 90%;
+            margin: 0;
+        }
+
     }
 
     @media screen and (max-width: 767px) {
         .about-row{
             display: block;
         }
+
+        .about-img {
+            width: 80%;
+        }
+    
+        .about-col-1-2 {
+            width: 90%;
+        }
+
+        .about-social-links{
+            display: block;
+            gap: 3rem;
+        }
     }
 
-  
- /* ########################################################################################################################################## */ 
+
+
+    /* ########################################################################################################################################## */ 
+
+    /* SERVICES SECTION */
+    
+    .card-services .card-title {
+        margin: 0;
+    }
+
+    .card-services a {
+        display: block;
+        padding: 2rem;
+        background-color: var(--color-light-grey);
+    }
+
+    .card-services a:hover {
+        color: var(--color-white);
+        background: var(--color-primary);
+        text-decoration: none;
+        transition-duration: 0.3s;
+        transition-property: color, background-color;
+    }
+
+    .section-services .row {
+        flex-wrap: wrap;
+    }
+
+
+    /* ########################################################################################################################################## */ 
 
 
     /* PRODUCTS SECTION */
@@ -735,35 +801,9 @@
         }   
     }
 
+      
+    /* ########################################################################################################################################## */
 
-    /* ########################################################################################################################################## */ 
-
-    /* SERVICES SECTION */
-    
-    .card-services .card-title {
-        margin: 0;
-    }
-
-    .card-services a {
-        display: block;
-        padding: 2rem;
-        background-color: var(--color-light-grey);
-    }
-
-    .card-services a:hover {
-        color: var(--color-white);
-        background: var(--color-primary);
-        text-decoration: none;
-        transition-duration: 0.3s;
-        transition-property: color, background-color;
-    }
-
-    .section-services .row {
-        flex-wrap: wrap;
-    }
-
-
-    /* ########################################################################################################################################## */ 
 
     /* TESTIMONIAL SECTION */
 
