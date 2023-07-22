@@ -798,6 +798,10 @@
         .card-products .card-title a {
             padding: 2rem 1rem 0 1rem;
         }   
+
+         .card-products:hover .card-inner {
+            background-color: rgba(0, 0, 0, 0.89);
+        }
     }
 
       
