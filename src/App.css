@@ -614,7 +614,13 @@
     /* ########################################################################################################################################## */ 
 
     /* ABOUT US */
-
+    #firmname{
+        color: brown;
+    }
+    .section-about-us{
+        background-color: rgb(250, 250, 250);
+    }
+    
     .about-row{
         display: flex;
         gap: 2rem;
@@ -852,6 +858,11 @@
         text-align: center;
     }
 
+    .section-contact{
+        background-color: rgb(250, 250, 250);
+    }
+    
+
 
     /* ############################################################################################################################################ */
 
@@ -880,7 +891,7 @@
     }
 
     .footer-copyright a{
-        color: orange;
+        color: var(--color-primary);
     }
 
     .footer-row {

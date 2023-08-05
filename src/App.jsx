@@ -4,6 +4,8 @@ import logo from '../images/logo.png'
 import about2 from '../images/about2.png'
 import about3 from '../images/about3.png'
 import about4 from '../images/about4.png'
+import fb2 from '../images/fb2.jpg'
+import fb3 from '../images/fb3.png'
 import edge from '../images/edge.jpg'
 import gel from '../images/gel.jpg'
 import nails from '../images/nails.jpeg'
@@ -70,7 +72,7 @@ function App() {
                         <div className="container">
                             <div className="section-body">
                                 <section className="section-inner">
-                                    <h2 className="section-title">Looking for an affordable place to get your hair accessories? We gat you covered !!</h2>
+                                    <h2 className="section-title">Looking for an affordable place to get your hair accessories? We got you covered !!</h2>
                                     <a href="#" className="button">Get Started</a>
                                 </section>
                             </div>
@@ -106,11 +108,11 @@ function App() {
                                 </div>
                                 
                                 <div className="about-col-1-2">
-                                    <h3>Who are we</h3>
-                                    <p> <b>Ugo Brown Hair Accessories</b>  is a company based in Nigeria. It was established by Miss Ugochi Faith Emeka in 2022. Our goal and objective is to provide authentic hair accessories for the beautification of our clients at an affordable price.</p>
+                                    <h3>Who are we ?</h3>
+                                    <p> <b id='firmname'>Ugo Brown Hair Accessories</b>  is a company based in Nigeria. It was established by Miss Ugochi Faith Emeka in 2022. Our goal and objective is to provide authentic hair accessories for the beautification of our clients at an affordable price.</p>
 
-                                    <h3>How we work</h3>
-                                    <p>We deal in the sales of various hair accessories such as relaxers, attachments, hair gels, finger and toe nails, weavons, etc at pocket friendly prices across the globe. We also do home delivery where possible</p>
+                                    <h3>How we work ?</h3>
+                                    <p>We deal in the sales of various hair accessories such as relaxers, attachments, hair gels, finger and toe nails, weavons, etc at pocket friendly prices across the globe. We also do home delivery where possible.</p>
 
                                     <h3>Our social media platform</h3>
                                     
@@ -147,8 +149,8 @@ function App() {
 
                 </section>
 
-
                 {/* <!-- Services section --> */}
+
 
                 <section id="services" className="section section-services">
                     <div className="container">
@@ -181,7 +183,7 @@ function App() {
                             <ul className="row">
                                 <li className="col-1-3">
                                     <div className="card-services">
-                                        <h3 className="card-title"><a href="https://api.whatsapp.com/send?phone=+2349071953161& text=Thank%20you%20for%20contacting%20Ugo Brown Hair Accessories">Hair Gel</a></h3>
+                                        <h3 className="card-title"><a href="https://api.whatsapp.com/send?phone=+2349071953161& text=Thank%20you%20for%20contacting%20Ugo Brown Hair Accessories">Hair Gels</a></h3>
                                     </div>
                                 </li>
 
@@ -322,8 +324,8 @@ function App() {
                                     <article className="card-testimonial">
                                         <img src="https://media.licdn.com/dms/image/D4D03AQGkA56p2mDNtA/profile-displayphoto-shrink_200_200/0/1680364882896?e=1695254400&v=beta&t=f_tdmZqQq297Vy1-KTcabpCn6MFkh8q0B9cgAdzECOc" alt="Amarachi Eze" width="100" height="100" className="card-avatar"/>
                                         <blockquote className="card-quote">
-                                            <p> &nbsp;  &nbsp;  &nbsp; I am completely blown away. Thanks to Ugo brown, I just got an authentic hair weavon at a very cheap price.
-                                            <cite>Amarachi Eze.</cite>
+                                            <p> &nbsp;  &nbsp;  &nbsp; I am completely blown away. Thanks to Ugo brown Hair Accessories, I just got an authentic hair weavon for my fiancee at a very cheap price.
+                                            <cite>Achilihu Daniel U.</cite>
                                             </p>
                                         </blockquote>
                                     </article>
@@ -331,7 +333,7 @@ function App() {
 
                                 <li className="col-1-3">
                                     <article className="card-testimonial">
-                                        <img src="https://media.licdn.com/dms/image/D4D03AQGkA56p2mDNtA/profile-displayphoto-shrink_200_200/0/1680364882896?e=1695254400&v=beta&t=f_tdmZqQq297Vy1-KTcabpCn6MFkh8q0B9cgAdzECOc" alt="Oluwashade Ajayi" width="100" height="100" className="card-avatar"/>
+                                        <img src={fb2} alt="Oluwashade Ajayi" width="100" height="100" className="card-avatar"/>
                                         <blockquote className="card-quote"> 
                                         <p> &nbsp;  &nbsp;  &nbsp; Thank you so much for your help. Now i can slay with my fancy toe nails.
                                             <cite>Oluwashade Ajayi.</cite>
@@ -342,7 +344,7 @@ function App() {
 
                                 <li className="col-1-3">
                                     <article className="card-testimonial">
-                                        <img src="https://media.licdn.com/dms/image/D4D03AQGkA56p2mDNtA/profile-displayphoto-shrink_200_200/0/1680364882896?e=1695254400&v=beta&t=f_tdmZqQq297Vy1-KTcabpCn6MFkh8q0B9cgAdzECOc" alt="Gabrielle Musa" width="100" height="100" className="card-avatar"/>
+                                        <img src={fb3} alt="Gabrielle Musa" width="100" height="100" className="card-avatar"/>
                                         <blockquote className="card-quote"> 
                                             <p> &nbsp;  &nbsp;  &nbsp; I love your company. Definitely worth it. I would have been scammed again if i had purchased from my former vendor.
                                             <cite>Gabrielle Musa</cite>
@@ -395,8 +397,9 @@ function App() {
                             <div className="header-logo" >
                             <img src={logo} alt="Ugo-brown logo" width="160" height="40"/>
                             <address className="footer-address">
-                                Abia State<br/>
-                                Nigeria.<br/>
+                                Okofia College of Health Science Nnewi Campus, <br /> 
+                                Nnamdi Azikiwe University, <br />
+                                Anambra State, Nigeria.<br/>
                             </address>
                             </div>
                         </div>                                                                   
@@ -423,7 +426,7 @@ function App() {
 
                     </div>
 
-                    <hr/>
+                    <hr style={{width:'100%', margin:'0'}}/>
 
                     <div className="footer-row">
                         <div className="footer-col-1-2">
