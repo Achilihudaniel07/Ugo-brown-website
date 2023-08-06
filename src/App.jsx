@@ -407,7 +407,7 @@ function App() {
                         <div className="footer-col-1-2">
                             <ul className="social nav">
                                 <li className="social-item nav-item">
-                                    <SocialIcon url="https://FaithEmeka78538?t=mT4YrCbo22J8XXhE7tA2ig&s=09" target="_blank" rel='noopener noreferrer' style={{width:"35px", height: "35px"}}/>
+                                    <SocialIcon url="https://twitter.com/FaithEmeka78538?t=mT4YrCbo22J8XXhE7tA2ig&s=09" target="_blank" rel='noopener noreferrer' style={{width:"35px", height: "35px"}}/>
                                 </li>
 
                                 <li className="social-item nav-item">
