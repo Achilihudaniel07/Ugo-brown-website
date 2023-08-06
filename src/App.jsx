@@ -119,7 +119,7 @@ function App() {
                                     <div className="about-social-links">                                                                      
                                         <div className="about-social-links1" >
                                             <h5>Twitter:</h5>
-                                            <SocialIcon url="https://twitter.com/dan__kesh77" target="_blank" rel='noopener noreferrer' style={{width:"30px", height: "20px"}}/>
+                                            <SocialIcon url="https://twitter.com/FaithEmeka78538?t=mT4YrCbo22J8XXhE7tA2ig&s=09" target="_blank" rel='noopener noreferrer' style={{width:"30px", height: "20px"}}/>
                                         </div>
 
                                         <div className="about-social-links1">
@@ -129,7 +129,7 @@ function App() {
                                             
                                         <div className="about-social-links1" >
                                             <h5>Facebook:</h5>
-                                            <SocialIcon url="https://www.facebook.com/daniel.achilihu.9" target="_blank" rel='noopener noreferrer' style={{width:"30px", height: "20px"}}/>
+                                            <SocialIcon url="https://facebook.com/profile.php?id=100095170103987" target="_blank" rel='noopener noreferrer' style={{width:"30px", height: "20px"}}/>
                                         </div>
                 
                                         <div className="about-social-links1">
@@ -407,7 +407,7 @@ function App() {
                         <div className="footer-col-1-2">
                             <ul className="social nav">
                                 <li className="social-item nav-item">
-                                    <SocialIcon url="https://twitter.com/dan__kesh77" target="_blank" rel='noopener noreferrer' style={{width:"35px", height: "35px"}}/>
+                                    <SocialIcon url="https://FaithEmeka78538?t=mT4YrCbo22J8XXhE7tA2ig&s=09" target="_blank" rel='noopener noreferrer' style={{width:"35px", height: "35px"}}/>
                                 </li>
 
                                 <li className="social-item nav-item">
@@ -415,7 +415,7 @@ function App() {
                                 </li>
 
                                 <li className="social-item nav-item">                                
-                                    <SocialIcon url="https://www.facebook.com/daniel.achilihu.9" target="_blank" rel='noopener noreferrer' style={{width:"35px", height: "35px"}}/>
+                                    <SocialIcon url="https://www.facebook.com/profile.php?id=100095170103987" target="_blank" rel='noopener noreferrer' style={{width:"35px", height: "35px"}}/>
                                 </li>
 
                                 <li className="social-item nav-item">                                   
