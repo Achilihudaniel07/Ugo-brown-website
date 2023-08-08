@@ -226,7 +226,7 @@ function App() {
                                             </div>
 
                                             <div className="card-inner">
-                                                <h3 className="card-title"><a href="#">Price: #500</a></h3>
+                                                <h3 className="card-title"><a href="#">Price: #1500</a></h3>
                                             </div>
                                         </div>
                                     </article>
@@ -252,7 +252,7 @@ function App() {
                                                 <img src={weavon} alt="Hair weavons"/>
                                             </div>
                                             <div className="card-inner">
-                                                <h3 className="card-title"><a href="#">Price: #500</a></h3>
+                                                <h3 className="card-title"><a href="#">Price: #2500</a></h3>
                                             </div>
                                         </div>
                                     </article>
@@ -266,7 +266,7 @@ function App() {
                                                 <img src={nails} alt="Finger and Toe Nails"/>
                                             </div>
                                             <div className="card-inner">
-                                                <h3 className="card-title"><a href="#">Price: #500</a></h3>
+                                                <h3 className="card-title"><a href="#">Price: #1500</a></h3>
                                             </div>
                                         </div>
                                     </article>
@@ -294,7 +294,7 @@ function App() {
                                                 <img src= {edge} alt="Edge control"/>
                                             </div>
                                             <div className="card-inner">
-                                                <h3 className="card-title"><a href="#">Price: #500</a></h3>
+                                                <h3 className="card-title"><a href="#">Price: #1500</a></h3>
                                             </div>
                                         </div>
                                     </article>
