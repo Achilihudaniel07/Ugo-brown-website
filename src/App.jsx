@@ -119,7 +119,7 @@ function App() {
                                     <div className="about-social-links">                                                                      
                                         <div className="about-social-links1" >
                                             <h5>Twitter:</h5>
-                                            <SocialIcon url="https://twitter.com/dan__kesh77" target="_blank" rel='noopener noreferrer' style={{width:"30px", height: "20px"}}/>
+                                            <SocialIcon url="https://twitter.com/FaithEmeka78538?t=mT4YrCbo22J8XXhE7tA2ig&s=09" target="_blank" rel='noopener noreferrer' style={{width:"30px", height: "20px"}}/>
                                         </div>
 
                                         <div className="about-social-links1">
@@ -129,7 +129,7 @@ function App() {
                                             
                                         <div className="about-social-links1" >
                                             <h5>Facebook:</h5>
-                                            <SocialIcon url="https://www.facebook.com/daniel.achilihu.9" target="_blank" rel='noopener noreferrer' style={{width:"30px", height: "20px"}}/>
+                                            <SocialIcon url="https://facebook.com/profile.php?id=100095170103987" target="_blank" rel='noopener noreferrer' style={{width:"30px", height: "20px"}}/>
                                         </div>
                 
                                         <div className="about-social-links1">
@@ -226,7 +226,7 @@ function App() {
                                             </div>
 
                                             <div className="card-inner">
-                                                <h3 className="card-title"><a href="#">Price: #500</a></h3>
+                                                <h3 className="card-title"><a href="#">Price: #1500</a></h3>
                                             </div>
                                         </div>
                                     </article>
@@ -252,7 +252,7 @@ function App() {
                                                 <img src={weavon} alt="Hair weavons"/>
                                             </div>
                                             <div className="card-inner">
-                                                <h3 className="card-title"><a href="#">Price: #500</a></h3>
+                                                <h3 className="card-title"><a href="#">Price: #2500</a></h3>
                                             </div>
                                         </div>
                                     </article>
@@ -266,7 +266,7 @@ function App() {
                                                 <img src={nails} alt="Finger and Toe Nails"/>
                                             </div>
                                             <div className="card-inner">
-                                                <h3 className="card-title"><a href="#">Price: #500</a></h3>
+                                                <h3 className="card-title"><a href="#">Price: #1500</a></h3>
                                             </div>
                                         </div>
                                     </article>
@@ -294,7 +294,7 @@ function App() {
                                                 <img src= {edge} alt="Edge control"/>
                                             </div>
                                             <div className="card-inner">
-                                                <h3 className="card-title"><a href="#">Price: #500</a></h3>
+                                                <h3 className="card-title"><a href="#">Price: #1500</a></h3>
                                             </div>
                                         </div>
                                     </article>
@@ -407,7 +407,7 @@ function App() {
                         <div className="footer-col-1-2">
                             <ul className="social nav">
                                 <li className="social-item nav-item">
-                                    <SocialIcon url="https://twitter.com/dan__kesh77" target="_blank" rel='noopener noreferrer' style={{width:"35px", height: "35px"}}/>
+                                    <SocialIcon url="https://twitter.com/FaithEmeka78538?t=mT4YrCbo22J8XXhE7tA2ig&s=09" target="_blank" rel='noopener noreferrer' style={{width:"35px", height: "35px"}}/>
                                 </li>
 
                                 <li className="social-item nav-item">
@@ -415,7 +415,7 @@ function App() {
                                 </li>
 
                                 <li className="social-item nav-item">                                
-                                    <SocialIcon url="https://www.facebook.com/daniel.achilihu.9" target="_blank" rel='noopener noreferrer' style={{width:"35px", height: "35px"}}/>
+                                    <SocialIcon url="https://www.facebook.com/profile.php?id=100095170103987" target="_blank" rel='noopener noreferrer' style={{width:"35px", height: "35px"}}/>
                                 </li>
 
                                 <li className="social-item nav-item">                                   
